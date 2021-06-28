@@ -1,0 +1,33 @@
+.App-body {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.Card {
+  padding: 10px;  
+}
+.Card:hover {
+  background-color: #ddffff;
+  border-left: 6px solid #2196F3;
+  border-bottom-left-radius: 10px;
+  /* border-top-left-radius: 5px; */
+}
+
+.Card-container {
+  max-height: 75vh;
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: auto;
+  min-height: 0;
+  margin:10px;
+  padding:10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+
