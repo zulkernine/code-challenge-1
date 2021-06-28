@@ -43,7 +43,7 @@ class Currency extends Component {
   };
 
   async componentDidMount() {
-    // await this.getRatio("USD_INR");
+    await this.getRatio("USD_INR");
   }
 
   getRatio = async (args) => {
